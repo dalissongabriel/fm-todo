@@ -18,9 +18,11 @@
     </div>
   </header>
   <main>
-    <div class="wrapper float-card">
+    <div class="wrapper">
       <section class="todo-search">
-        <input type="search" placeholder="Criar novas tarefas...">
+        <form action="/api/todo" method="post">
+          <input  type="text" name="todo" required placeholder="Criar novas tarefas...">
+        </form>
       </section>
 
       <section>
