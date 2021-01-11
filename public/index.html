@@ -21,21 +21,44 @@
     <div class="wrapper">
       <section class="todo-search">
         <form action="/api/todo" method="post">
-          <input  type="text" name="todo" required placeholder="Criar novas tarefas...">
+          <input  type="text" name="todo" placeholder="Criar novas tarefas...">
         </form>
       </section>
 
       <section>
         <ul class="todo-list">
           <li class="todo-item">
-            <button class="btn-end-todo">Completar tarefa</button>
-            <span>Completar o curso de javascript</spanp>
-            <button class="btn-remove-todo">Cancelar tarefa</button>
+            <button class="btn-end-todo closed-todo">
+              <img src="./assets/images/icon-check.svg" alt="">
+            </button>
+            <p>Completar o curso de javascript</p>
+            <button class="btn-cancel-todo">
+              <img src="./assets/images/icon-cross.svg" alt="">
+            </button>
           </li>
           <li class="todo-item">
-            <button class="btn-end-todo">Completar tarefa</button>
-            <span>Completar o curso de javascript</spanp>
-            <button class="btn-remove-todo">Cancelar tarefa</button>
+            <button class="btn-end-todo open-todo">
+            </button>
+            <p>Completar o curso de javascript</p>
+            <button class="btn-cancel-todo">
+              <img src="./assets/images/icon-cross.svg" alt="">
+            </button>
+          </li>
+          <li class="todo-item">
+            <button class="btn-end-todo open-todo">
+            </button>
+            <p>Completar o curso de javascript</p>
+            <button class="btn-cancel-todo">
+              <img src="./assets/images/icon-cross.svg" alt="">
+            </button>
+          </li>
+          <li class="todo-item">
+            <button class="btn-end-todo open-todo">
+            </button>
+            <p>Completar o curso de javascript</p>
+            <button class="btn-cancel-todo">
+              <img src="./assets/images/icon-cross.svg" alt="">
+            </button>
           </li>
         </ul>
         <div class="todo-list-footer">
