@@ -153,3 +153,41 @@ input:focus {
   transform: scale(1.1);
   background-color: rgba(233, 64, 64, 0.2);
 }
+
+.todo-list-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  rgba(213, 213, 213, 0.9);
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  border-bottom: 2px solid #4d2687;
+}
+
+.todo-list-footer p {
+  color: rgb(118, 118, 118);
+  height: 100%;
+  font-size: 0.9rem;
+}
+
+.todo-list-footer button {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(118, 118, 118);
+  font-size: 0.9rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.todo-list-footer button:hover {
+  border-radius: 8px;
+  border: 1px solid #8046D8;
+  background-color: white;
+  color: #8046D8;
+  padding: 0.2rem 0.4rem;
+}
