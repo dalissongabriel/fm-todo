@@ -216,14 +216,15 @@ input:focus {
 
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
   background: var(--cor-footer-tb);
   color: var(--cor-fonte-hoover);
-  font-weight: 700;
   text-align: center;
+  font-weight: 700;
   padding: 1rem 1rem;
 }
 
