@@ -1,5 +1,5 @@
 body {
-  --cor-fundo-tb: hsl(0, 0%, 98%);
+  --cor-fundo-tb: hsl(0, 0%, 96.5%);
   --cor-fundo-ativo-tb: #8046D8;
   --cor-primaria-tb: white;
   --cor-sombra-tb: #8046d89a;
@@ -192,7 +192,7 @@ input:focus {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
-  background-color: var(--cor-fundo-tb);
+  background-color: var(--cor-footer-tb);
   box-sizing: border-box;
   padding: 1rem 1rem;
   border-radius: 8px;
@@ -239,4 +239,17 @@ footer {
   background-color: var(--cor-fundo-ativo-tb);
   color: var(--cor-fundo-tb);
   border-radius: 4px;
+}
+
+@media (min-width: 370px) {
+  body::before {
+    background: url("./../images/bg-desktop-light.jpg") no-repeat top;
+  }
+
+  header {
+    padding-top: 6.5rem;
+  }
+  .wrapper {
+    max-width: 550px;
+  }
 }
