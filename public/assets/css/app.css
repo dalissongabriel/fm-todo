@@ -9,7 +9,6 @@ body {
   width: 100%;
   background-color: var(--cor-fundo-tb);
   position: relative;
-  overflow: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -25,7 +24,9 @@ body::before {
   z-index: -1;
 }
 
-
+main {
+  min-height: 90vh;
+}
 .wrapper {
   max-width: 360px;
   padding: 1rem 1rem;
@@ -216,10 +217,10 @@ input:focus {
 
 
 footer {
-  position:fixed;
+  position: relative;
   left:0px;
   bottom:0px;
-  height:100px;
+  height:100%;
   width:100%;
   background: var(--cor-footer-tb);
   color: var(--cor-fonte-hoover);
